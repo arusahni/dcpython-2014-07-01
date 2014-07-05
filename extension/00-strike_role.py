@@ -11,5 +11,6 @@ class Plugin(RestExtension):
     def set_site(self, site):
 
         # Insert logic here
+        # @see: http://docutils.sourceforge.net/docutils/parsers/rst/roles.py
 
         return super(Plugin, self).set_site(site)
